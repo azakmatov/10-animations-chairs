@@ -1,0 +1,26 @@
+@media screen and (max-width: 919px) {
+    .header {
+        padding: 39px 0;
+    }
+
+    .menu ul {
+        justify-content: space-between;
+    }
+
+    .menu ul li {
+        margin: 0;
+    }
+
+    .container {
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .menu ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        text-align: center;
+        grid-row-gap: 10px;
+    }
+}
